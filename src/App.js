@@ -2,6 +2,15 @@ import React, { useState } from 'react';
 import TeamList from './TeamList';
 import Form from './Form';
 import './App.css';
+import styled from 'styled-components';
+
+const StyledApp = styled.div
+`
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #0047b3;
+`
 
 const initialTeam = [
   { name: "Bob Ross", nickName: "Rob Boss", email: "boss@email.com", role: "Boss"}
@@ -35,7 +44,7 @@ function App() {
   }
 
   return (
-    <div>
+    <StyledApp>
       <h1>Bob's Warehouse Team</h1>
       <Form
         values={formValues}
@@ -53,7 +62,7 @@ function App() {
           />
         )
       }) }
-    </div>
+    </StyledApp>
   )
 }
 

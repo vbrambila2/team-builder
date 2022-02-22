@@ -36,3 +36,36 @@
     transform: rotate(360deg);
   }
 }
+
+h1 {
+  font-size: 3em;
+  text-decoration: underline;
+  color: white;
+}
+
+.email {
+  font-size: .7em;
+}
+
+input {
+  margin: 0.3em;
+}
+
+select {
+  margin: 0.3em;
+}
+
+button {
+  margin: 0.3em;
+  padding: 0.5em;
+  border-radius: 1em;
+  background-color: white;
+}
+
+label {
+  font-weight: bold;
+  float: right;
+  clear: right;
+  width: 250px;
+  text-align: right;
+}

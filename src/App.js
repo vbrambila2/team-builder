@@ -40,7 +40,7 @@ function App() {
     }
 
     setTeam(team.concat(newTeamMember));
-    setFormValues(initialFormValues);  
+    setFormValues(initialFormValues); 
   }
 
   return (

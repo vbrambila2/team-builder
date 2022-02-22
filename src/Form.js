@@ -17,12 +17,12 @@ export default function Form(props) {
         const name = e.target.name
         const value = e.target.value
         update(name, value);
-      }
+    }
 
     const onSubmit = e => {
         e.preventDefault();
         submit();
-      }
+    }
 
     return (
         <StyledForm>
